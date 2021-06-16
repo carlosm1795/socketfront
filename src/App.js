@@ -2,7 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import React, { useState, useEffect } from "react";
 import socketIOClient from "socket.io-client";
-const ENDPOINT = "/";
+const ENDPOINT = "https://serverdate.herokuapp.com/";
 function App() {
   const [response, setResponse] = useState("");
 
